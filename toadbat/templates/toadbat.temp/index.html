@@ -1,83 +1,14 @@
+{% load static %}
 <!DOCTYPE html>
-<html>
+<html lang='ru'>
   <head>
     <meta charset="utf-8">
     <title>ToadBatApp</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="{% static 'toadbat_css/css/style.css' %}">
   </head>
   <body>
-  <h1>Представление работы заголовка</h1>
-    <table>
-	<tr>
-	    <th>Персонаж</th>
-	    <th>Оценка по 10-бальной шкале</th>
-	</tr>
-	<tr>
-	    <td>Кирито</td>
-	    <td>7/10</td>
-	</tr>
+    <header class="hui" >
+      <a >Пошел нахуй</a>
 
-    </table>
-    <ol>
-      <li>Русские писатели
-        <ul>
-          <li>Михаил Булгаков</li>
-          <li>Федор Достоевский</li>
-          <li>Лев Толстой</li>
-          <li>Антон Чехов</li>
-        </ul>
-      </li>
-      <li>Зарубежные писатели
-        <ul>
-          <li>Теодор Драйзер</li>
-          <li>Джек Лондон</li>
-          <li>Жюль Верн</li>
-          <li>Рэй Брэдбери</li>
-        </ul>
-      </li>
-    </ol>
-    <ol start="Топ лучших ссылок в мире">
-      <li><a href='tel:89114369042'>Позвонить богу</a></li>
-      <li><a href="http://www.mindcraft.pro" target="_blank">рискни здоровьем</a></li>
-      <!-- Комментарий -->
-    </ol>
-    <p>Просто арбуз.</p>
-    <p>риал арбуз</p>
-    <br>
-    <form>
-        Фамилия:<br>
-        <input type="text" id="lastname"><br>
-        <br>Имя:<br>
-        <input type="text" id="firstname"><br>
-        <br>Отчество:<br>
-        <input type="text" id="patronymic"><br>
-        <br>Тема сообщения:<br>
-        <select id="topic">
-            <option>Предложение</option>
-            <option>Проблема</option>
-            <option>Жалоба</option>
-        </select><br>
-        <br><input type="checkbox" id="email">Получить ответ по email<br>
-        <br><input type="submit" id="send" value="Отправить сообщение">
-        <input type="reset" id="clear" value="Очистить форму">
-        Введите пароль:<br>
-        <input type="password">
-        <br>
-        <input type='reset' value="Сброс">
-    </form>>
-
-    <p>Какая ваша любимая группа восьмидесятых?
-      <select name="EightiesFave">
-        <option value="1">The Cure</option>
-        <option value="2">Cocteau Twins</option>
-        <option value="3">Tears for Fears</option>
-        <option value="4">Thompson Twins</option>
-        <option value="5">Everything But the Girl</option> 
-        <option value="6">Depeche Mode</option>
-        <option value="7">The Smiths</option>
-        <option value="8">New Order</option>
-      </select>
-    </p>
   </body>
 </html>

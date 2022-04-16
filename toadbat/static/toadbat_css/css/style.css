@@ -1,12 +1,6 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&family=Poppins:wght@300&display=swap');
 
-    background-color: whitesmoke
-    
-  }
-  body {
-    background-color: rgb(132, 214, 187);
-  }
-
-  a{
-    color: purple
-  }
+.sidebar {
+ width: 20px;
+ height: max-content; 
+}

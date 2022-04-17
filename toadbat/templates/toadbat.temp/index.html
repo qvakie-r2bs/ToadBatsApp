@@ -1,25 +1,29 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang='ru'>
-  <head>
-    <meta charset="utf-8">
-    <title>ToadBatApp</title>
-    <link rel="stylesheet" href="{% static 'toadbat_css/css/style.css'%}">
-  </head>
-  <body>
-    <a href="admin">админка</a>
+<head>
+  <meta charset="utf-8">
+  <title>ToadBatApp</title>
+  <link rel="stylesheet" href="{% static 'toadbat_css/css/style.css'%}">
+</head>
+<body>
+  <a href="/admin/">админка</a>
 
-  
-    <img src="" alt="logo" class = "logo">
-    <div class="sidebar">
-      <input type="checkbox" id="checkmenu">
-      <label for="checkmenu"></label>
+  <div class="wrapper">
+      <input type="checkbox" id="check-menu">
+      <label for="check-menu">Меню</label>
+      <div class="burger-line first"></div>
+      <div class="burger-line second"></div>
+      <div class="burger-line third"></div>
+      <div class="burger-line fourth"></div>
+      <nav class="main-menu">
+          <a class="line1" href="#">Мой день</a>
+          <a class="line2" href="#">Задачи Кафедры</a>
+          <a class="line3" href="#">События</a>
+          <a class="line4" href="#">Календарь</a>
+          <a class="line5" href="#">Настройки</a>
+      </nav>
     </div>
       
-      
-      
-   
-   
-
-  </body>
+</body>
 </html>

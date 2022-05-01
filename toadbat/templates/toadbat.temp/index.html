@@ -7,23 +7,35 @@
   <link rel="stylesheet" href="{% static 'toadbat_css/css/style.css'%}">
 </head>
 <body>
-  <a href="/admin/">админка</a>
+  <header class="header">
+    <div class="header_inner">
+      <div class="header_logo">
+       TnB
+      </div>
+      <div class="header_link">
+       <a class="header_admin" href="/admin/">админка</a>
+      </div>
+    </div>
+  </header>
 
   <div class="wrapper">
-      <input type="checkbox" id="check-menu">
-      <label for="check-menu">Меню</label>
-      <div class="burger-line first"></div>
-      <div class="burger-line second"></div>
-      <div class="burger-line third"></div>
-      <div class="burger-line fourth"></div>
-      <nav class="main-menu">
-          <a class="line1" href="#">Мой день</a>
-          <a class="line2" href="#">Задачи Кафедры</a>
-          <a class="line3" href="#">События</a>
-          <a class="line4" href="#">Календарь</a>
-          <a class="line5" href="#">Настройки</a>
-      </nav>
-    </div>
+    <input type="checkbox" id="check-menu">
+    <label for="check-menu">Меню</label>
+    <div class="burger-line first"></div>
+    <div class="burger-line second"></div>
+    <div class="burger-line third"></div>
+    <div class="burger-line fourth"></div>
+    <nav class="main-menu">
+        <a class="nav_links" href="#">Мой день</a>
+        <a class="nav_links" href="#">Задачи Кафедры</a>
+        <a class="nav_links" href="#">События</a>
+        <a class="nav_links" href="#">Календарь</a>
+        <a class="nav_links" href="#">Настройки</a>
+    </nav>
+  </div>
+  
+
+ 
       
 </body>
 </html>

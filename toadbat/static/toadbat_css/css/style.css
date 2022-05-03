@@ -41,6 +41,17 @@
     
 }
 
+.intro {
+    width: 100%;
+    height: 93.3vh;
+    
+    background:
+    url("https://etu.ru/assets/cache/images/ru/nauchnaya/novosti/1280x800-dscf2014-2.cb9.jpg") center
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 .header {
     width: 100%;
 
@@ -60,11 +71,14 @@
     width: 280px;
     background-color: rgb(220, 220, 220);
     position: relative;
-    color: rgb(0, 0, 0);
+    color: rgb(172, 172, 172);
     text-align: center;
     font-family: 'Arial';
     height: 37px;
     border-radius: 0 5px 5px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold
+    
 
 }
 
@@ -118,8 +132,8 @@ label {
     font-size: 0;
     overflow: hidden;
     transition: .5s all;
-    
-    
+    opacity: .9;
+   
 }
 
 .nav_links {

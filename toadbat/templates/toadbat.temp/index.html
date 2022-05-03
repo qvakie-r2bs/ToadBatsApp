@@ -3,39 +3,41 @@
 <html lang='ru'>
 <head>
   <meta charset="utf-8">
-  <title>ToadBatApp</title>
+  <title>ToadBat</title>
+  <link type="image/x-icon" href="https://school255.ru/wp-content/uploads/2021/12/leti_logo_krug-eng_2019-480x478.png" rel="shortcut icon">
   <link rel="stylesheet" href="{% static 'toadbat_css/css/style.css'%}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <link href="https: //fonts.googleapis.com/css2?family= семья = Exo+2:wght@800 &Raleway :wght@300 & display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <div class="header_inner">
-      <div class="img_logo">
-        <img src="https://etu.ru/assets/templates/public/img/spbetu-logo-ru.svg?t=2018-11-09-16-25-04" alt="no image!" height="40px" width="250">
+  <div class="intro">
+    <header class="header">
+      <div class="header_inner">
+        <div class="img_logo">
+          <img src="https://etu.ru/assets/templates/public/img/spbetu-logo-ru.svg?t=2018-11-09-16-25-04" alt="no image!" height="40px" width="250">
+        </div>
+        <div class="header_link">
+        <a class="header_admin" href="/admin/">админка</a>
+        </div>
       </div>
-      <div class="header_link">
-       <a class="header_admin" href="/admin/">админка</a>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="wrapper">
-    <input type="checkbox" id="check-menu">
-    <label for="check-menu">Меню</label>
-    <div class="burger-line first"></div>
-    <div class="burger-line second"></div>
-    <div class="burger-line third"></div>
-    <div class="burger-line fourth"></div>
-    <nav class="main-menu">
-        <a class="nav_links" href="#">Мой день</a>
-        <a class="nav_links" href="#">Задачи Кафедры</a>
-        <a class="nav_links" href="#">Экособытия</a>
-        <a class="nav_links" href="#">Экодаты</a>
-        <a class="nav_links" href="#">Настройки</a>
-    </nav>
+    <div class="wrapper">
+      <input type="checkbox" id="check-menu">
+      <label for="check-menu">Меню</label>
+      <div class="burger-line first"></div>
+      <div class="burger-line second"></div>
+      <div class="burger-line third"></div>
+      <div class="burger-line fourth"></div>
+      <nav class="main-menu">
+          <a class="nav_links" href="#">Мой день</a>
+          <a class="nav_links" href="#">Задачи Кафедры</a>
+          <a class="nav_links" href="#">Экособытия</a>
+          <a class="nav_links" href="#">Экодаты</a>
+          <a class="nav_links" href="#">Настройки</a>
+      </nav>
+    </div>
   </div>
-  
 </body>
 </html>

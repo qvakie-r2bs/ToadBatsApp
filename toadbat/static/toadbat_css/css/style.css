@@ -4,15 +4,21 @@
 
 }
 
+
+
 /* HEADER */
 .header_logo {
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Raleway', sans-serif;
 
 }
 
+.header_img {
+    position: relative;
+    z-index: 9999;
+}
 
 
 .header_admin {
@@ -43,7 +49,7 @@
     left: 0;
     right: 0;
     
-    background-color: #05336e;
+    background-color: rgb(220, 220, 220);
     height: 40px;
     
    
@@ -52,9 +58,9 @@
 .wrapper {
     margin: 50px 1px;
     width: 280px;
-    background-color: #05336e;
+    background-color: rgb(220, 220, 220);
     position: relative;
-    color: rgb(249, 249, 249);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Arial';
     height: 37px;
@@ -134,7 +140,7 @@ label {
 
 .nav_links:hover {
     background-color:rgb(227, 227, 227);
-    color: orange;
+    color: rgb(232, 164, 39);
 }
 .nav_links:after {
     content:"";
@@ -143,7 +149,7 @@ label {
     height: .5px;
     
 
-    background-color: orange;
+    background-color: rgb(232, 164, 39);
     opacity: 0;
 
     top: 20%;
